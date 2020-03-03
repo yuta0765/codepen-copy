@@ -13,9 +13,11 @@
     <div class="l-flex l-container">
       <div class="l-sidebar sidebar">
         <!-- Write code for Sidebar-->
-        <p class="side-title">CDEPEN</p>
-        <p class="start-text">TRY OUR ONLINE EDITOR</p>
-        <a class="button">Start Coding</a>
+        <div class="sidebar-head">
+          <p class="side-title">CDEPEN</p>
+          <p class="start-text">TRY OUR ONLINE EDITOR</p>
+          <a class="button">Start Coding</a>
+        </div>
         <ul class="sublist">
           <h2 class="title-warning">EXPLORE</h2>
           <li>
@@ -52,7 +54,7 @@
             <a>Advertise</a>
           </li>
         </ul>
-        <ul>
+        <ul class="sidebar-index">
           <li>
             <a>Newsletter</a>
           </li>
@@ -75,12 +77,15 @@
         <section class="l-section">
           <div class="hero">
              <!-- Write code for Hero-->
-             <div class="hero l-flex">
+             <div class="hero l-flex l-center">
                <div class="hero-part">
-                  <div class="logo"><i class="fas fa-cube"></i></div>
-                  <h1 class="hero-title">The best place to build, test, and discover frontend code.</h1>
+                  <div class="hero-body">
+                    <h1 class="hero-title">The best place to build, test, and discover frontend code.</h1>
                   <p>CodePen is a social development environment for front-end designers and developers. Build and deploy a website, show off your work, build test cases to learn and debug, and find inspiration.</p>
-                  <a class="button">Sign Up for Free</a>
+                  <div class="hero-footer">
+                    <a class="button">Sign Up for Free</a>
+                  </div>
+                  </div>
                </div>
                <div class="code-part">
                 <div class="card"></div>
@@ -115,37 +120,167 @@
         <section class="l-section">
           <div class="product-item-list">
              <!-- Write code for Product List-->
-             <div class="item">
+            <div class="l-flex l-flex-wrap l-center">
+              <div class="product-item">
                <p class="item-title">Find inspiration from 1.8 million+ front-end designers and developers.</p>
                <p class="item-sentense">Browse and share work from world-class designers and developers in the front-end community.</p>
                <a class="accent">Explore Picked Pens →</a>
+              </div>
+              <div class="product-item">
+                <div class="item-card">
+                  <div class="item-card-img">
+                    <img src="img/犬.jpg" alt="犬">
+                  </div>
+                  <div class="item-body l-flex">
+                    <div class="item-icon">
+                      <img src="img/紙飛行機.png" alt="紙飛行機">
+                    </div>
+                      <div class="item-body-text l-colum">
+                        <p class="item-title">Pixcel Dust</p>
+                        <p class="item-text">Paul neave</p>
+                      </div>
+                  </div>
+                  <div class="item-footer l-flex">
+                    <div class="item-card-info">
+                      <p></p>
+                      <span class="item-card-number">76</span>
+                    </div>
+                    <div class="item-card-info">
+                      <p></p>
+                      <span class="item-card-number">1</span>
+                    </div>
+                    <div class="item-card-info">
+                      <p></p>
+                      <span class="item-card-number">1,585</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="product-item">
+                <div class="item-card">
+                  <div class="item-card-img">
+                    <img src="img/犬.jpg" alt="犬">
+                  </div>
+                  <div class="item-body l-flex">
+                    <div class="item-icon">
+                      <img src="img/紙飛行機.png" alt="紙飛行機">
+                    </div>
+                    <div class="item-body-sentense"></div>
+                      <p class="item-title">Pixcel Dust</p>
+                      <p class="item-text">Paul neave</p>
+                  </div>
+                  <div class="item-footer l-flex">
+                    <div class="item-card-info">
+                      <p></p>
+                      <span class="item-card-number">76</span>
+                    </div>
+                    <div class="item-card-info">
+                      <p></p>
+                      <span class="item-card-number">1</span>
+                    </div>
+                    <div class="item-card-info">
+                      <p></p>
+                      <span class="item-card-number">1,585</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
-            <div class="item-card">
-              <div class="item-card-img"></div>
-              <div class="item-card-body"></div>
-              <div class="item-card-footer"></div>
+  
+            <div class="l-flex l-flex-wrap l-center">
+              <div class="product-item">
+                <div class="item-card">
+                  <div class="item-card-img">
+                    <img src="img/犬.jpg" alt="犬">
+                  </div>
+                  <div class="item-body l-flex">
+                    <div class="item-icon">
+                      <img src="img/紙飛行機.png" alt="紙飛行機">
+                    </div>
+                    <div class="item-body-sentense"></div>
+                      <p class="item-title">Pixcel Dust</p>
+                      <p class="item-text">Paul neave</p>
+                  </div>
+                  <div class="item-footer l-flex">
+                    <div class="item-card-info">
+                      <p></p>
+                      <span class="item-card-number">76</span>
+                    </div>
+                    <div class="item-card-info">
+                      <p></p>
+                      <span class="item-card-number">1</span>
+                    </div>
+                    <div class="item-card-info">
+                      <p></p>
+                      <span class="item-card-number">1,585</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="product-item">
+                <div class="item-card">
+                  <div class="item-card-img">
+                    <img src="img/犬.jpg" alt="犬">
+                  </div>
+                  <div class="item-body l-flex">
+                    <div class="item-icon">
+                      <img src="img/紙飛行機.png" alt="紙飛行機">
+                    </div>
+                    <div class="item-body-sentense "></div>
+                      <p class="item-title">Pixcel Dust</p>
+                      <p class="item-text">Paul neave</p>
+                  </div>
+                  <div class="item-footer l-flex">
+                    <div class="item-card-info">
+                      <p></p>
+                      <span class="item-card-number">76</span>
+                    </div>
+                    <div class="item-card-info">
+                      <p></p>
+                      <span class="item-card-number">1</span>
+                    </div>
+                    <div class="item-card-info">
+                      <p></p>
+                      <span class="item-card-number">1,585</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="product-item">
+                <div class="item-card">
+                  <div class="item-card-img">
+                    <img src="img/犬.jpg" alt="犬">
+                  </div>
+                  <div class="item-body l-flex">
+                    <div class="item-icon">
+                      <img src="img/紙飛行機.png" alt="紙飛行機">
+                    </div>
+                    <div class="item-body-sentense"></div>
+                      <p class="item-title">Pixcel Dust</p>
+                      <p class="item-text">Paul neave</p>
+                  </div>
+                  <div class="item-footer l-flex">
+                    <div class="item-card-info">
+                      <p></p>
+                      <span class="item-card-number">76</span>
+                    </div>
+                    <div class="item-card-info">
+                      <p></p>
+                      <span class="item-card-number">1</span>
+                    </div>
+                    <div class="item-card-info">
+                      <p></p>
+                      <span class="item-card-number">1,585</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
-            <div class="item-card">
-
-            </div>
-            <div class="item-card">
-
-            </div>
-            <div class="item-card">
-
-            </div>
-            <div class="item-card"> 
-
-            </div>
-            <div class="item-footer"></div>
-            <a class="button">Prev</a>
-            <a class="button">Next</a>
-          </div>
         </section>
         <footer class="l-footer l-flex l-flex-wrap l-space-between footer">
              <!-- Write code for Footer List-->
              <div class="footer-index">
-               <ul class="footer-contents">
+              <ul class="footer-contents l-flex">
                <li class="title">CodePen</li>
                <li>About</li>
                <li>Blog</li>
@@ -153,35 +288,35 @@
                <li>Docs</li>
                <li>Support</li>
                <li>Shop</li>
-             </ul>
-             <ul class="footer-contents">
+              </ul>
+              <ul class="footer-contents l-flex">
                <li class="title">For</li>
                <li>Teams</li>
                <li>Education</li>
                <li>Privacy</li>
                <li>Documentation</li>
-             </ul>
-             <ul class="footer-contents">
+              </ul>
+              <ul class="footer-contents l-flex">
                <li class="title">Social</li>
                <li>Challenges</li>
                <li>Twitter</li>
                <li>Facebook</li>
                <li>Instagram</li>
-             </ul>
-             <ul class="footer-contents">
+              </ul>
+              <ul class="footer-contents l-flex">
                <li class="title">Community</li>
                <li>Spectrum</li>
                <li>Teams</li>
                <li>Code of Conduct</li>
                <li>Jobs</li>
-             </ul>
+              </ul>
              </div>
              <div class="credit">
                <p class="logo">CDEPEN</p>
                <p><small>&copy; 2020CodePen</small></p>
                <p>Demo or it didn't happen.</p>
              </div>
-        </footer>
+            </footer>
       </main>
     </div>
   </body>
