@@ -8,8 +8,9 @@
         font-size: 0.8em
         text-align: center
         margin: 0.2em
-    .button
-        color: 
+    .side-button
+        a
+            color: white
     .title-warning
         color: $warning
         font-size: 15px
@@ -23,15 +24,27 @@
         list-style: none
     a
         color: $sentense-color
-        &:hover
-            background: 
     .sublist
+        padding-left: 16px
         a
             color: white
+            &:hover
+                cursor: pointer
+    .sidebar-index
+        padding-left: 16px
+        a
+            &:hover
+                cursor: pointer
+
+.search-form
+    i
+        font-size: 20px
 
 .hero
+    h1
+        margin: 0
     .hero-title
-        font-size: 3.0em
+        font-size: 3.0rem
 
 .features
     .feature-title
@@ -39,11 +52,23 @@
     .feature-sentense
         color: $sentense-color
 
-.product-item-list
-    .item-title
-        font-size: 1.07em
-    .item-text
-        color: $sentense-color
+.item-body-text
+    p
+        margin: 0
+.item-title
+    font-size: 1.07em
+.item-text
+     color: $sentense-color
+.item-footer
+    padding: 8px 16px
+    p
+        margin: 0
+.item-card-info
+    background: black
+    padding: 2px 4px
+    margin-right: 4px
+    border-radius: 4px
+
 
 
 .footer
@@ -57,7 +82,7 @@
             color: $sentense-color
             list-style: none
             margin-right: 1rem
-    .logo
+    .footer-logo
         color: white
     p, small
         color:  $sentense-color

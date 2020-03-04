@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width">
     <link rel="stylesheet" type="text/css" href="stylesheets/style.css">
     <!-- font-awesome -->
-    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <link href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" rel="stylesheet">
     <!-- googlefont -->
     <link href="https://fonts.googleapis.com/css?family=Lato:300,400,400italic,700,700italic,900,900italic" rel="stylesheet">
   </head>
@@ -14,9 +14,12 @@
       <div class="l-sidebar sidebar">
         <!-- Write code for Sidebar-->
         <div class="sidebar-head">
-          <p class="side-title">CDEPEN</p>
+          <p class="side-title">C<i class="fas fa-cube logo"></i>DEPEN</p>
           <p class="start-text">TRY OUR ONLINE EDITOR</p>
-          <a class="button">Start Coding</a>
+          <div class="side-button button">
+            <a>Start Coding</a>
+          </div>
+          
         </div>
         <ul class="sublist">
           <h2 class="title-warning">EXPLORE</h2>
@@ -67,11 +70,16 @@
         </ul>
       </div>
       <main class="l-main">
-      <header class="l-header header">
+      <header class="l-header header l-flex">
         <!-- Write code for Header-->
-        <input type="search">
-        <a class="button-primary">Sign Up</a>
-        <a class="button-secondry">Log In</a>
+        <div class="search-form l-flex">
+          <i class="fas fa-search seach-logo"></i>
+          <input class="search-form-input" type="search" type="text" placeholder="Search CodePen...">
+        </div>
+        <div class="button-header l-flex">
+          <a class="button-primary button">Sign Up</a>
+          <a class="button-secondry button">Log In</a>
+        </div>
       </header>
       <div class="l-content">
         <section class="l-section">
@@ -80,18 +88,28 @@
              <div class="hero l-flex l-center">
                <div class="hero-part">
                   <div class="hero-body">
+                    <div class="hero-logo">
+                      <h1><i class="fas fa-cube"></i></h1>
+                    </div>
                     <h1 class="hero-title">The best place to build, test, and discover frontend code.</h1>
-                  <p>CodePen is a social development environment for front-end designers and developers. Build and deploy a website, show off your work, build test cases to learn and debug, and find inspiration.</p>
-                  <div class="hero-footer">
-                    <a class="button">Sign Up for Free</a>
-                  </div>
+                    <p>CodePen is a social development environment for front-end designers and developers. Build and deploy a website, show off your work, build test cases to learn and debug, and find inspiration.</p>
+                    <div class="hero-footer">
+                     <a class="button">Sign Up for Free</a>
+                    </div>
                   </div>
                </div>
                <div class="code-part">
-                <div class="card"></div>
-                <div class="code-card"></div>
-                <div class="code-card"></div>
-                <div class="code-card"></div>
+                <div class="hero-card">
+                  <div class="code-card">
+
+                  </div>
+                  <div class="code-card">
+
+                  </div>
+                  <div class="code-card">
+
+                  </div>
+                </div>
                </div>
               </div>
           </div>
@@ -142,15 +160,15 @@
                   </div>
                   <div class="item-footer l-flex">
                     <div class="item-card-info">
-                      <p></p>
+                      <i class="fas fa-heart"></i>
                       <span class="item-card-number">76</span>
                     </div>
                     <div class="item-card-info">
-                      <p></p>
+                      <i class="fas fa-comment"></i>
                       <span class="item-card-number">1</span>
                     </div>
                     <div class="item-card-info">
-                      <p></p>
+                      <i class="far fa-eye"></i>
                       <span class="item-card-number">1,585</span>
                     </div>
                   </div>
@@ -165,53 +183,22 @@
                     <div class="item-icon">
                       <img src="img/紙飛行機.png" alt="紙飛行機">
                     </div>
-                    <div class="item-body-sentense"></div>
-                      <p class="item-title">Pixcel Dust</p>
-                      <p class="item-text">Paul neave</p>
+                      <div class="item-body-text l-colum">
+                        <p class="item-title">Pixcel Dust</p>
+                        <p class="item-text">Paul neave</p>
+                      </div>
                   </div>
                   <div class="item-footer l-flex">
                     <div class="item-card-info">
-                      <p></p>
+                      <i class="fas fa-heart"></i>
                       <span class="item-card-number">76</span>
                     </div>
                     <div class="item-card-info">
-                      <p></p>
+                      <i class="fas fa-comment"></i>
                       <span class="item-card-number">1</span>
                     </div>
                     <div class="item-card-info">
-                      <p></p>
-                      <span class="item-card-number">1,585</span>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-  
-            <div class="l-flex l-flex-wrap l-center">
-              <div class="product-item">
-                <div class="item-card">
-                  <div class="item-card-img">
-                    <img src="img/犬.jpg" alt="犬">
-                  </div>
-                  <div class="item-body l-flex">
-                    <div class="item-icon">
-                      <img src="img/紙飛行機.png" alt="紙飛行機">
-                    </div>
-                    <div class="item-body-sentense"></div>
-                      <p class="item-title">Pixcel Dust</p>
-                      <p class="item-text">Paul neave</p>
-                  </div>
-                  <div class="item-footer l-flex">
-                    <div class="item-card-info">
-                      <p></p>
-                      <span class="item-card-number">76</span>
-                    </div>
-                    <div class="item-card-info">
-                      <p></p>
-                      <span class="item-card-number">1</span>
-                    </div>
-                    <div class="item-card-info">
-                      <p></p>
+                      <i class="far fa-eye"></i>
                       <span class="item-card-number">1,585</span>
                     </div>
                   </div>
@@ -226,21 +213,22 @@
                     <div class="item-icon">
                       <img src="img/紙飛行機.png" alt="紙飛行機">
                     </div>
-                    <div class="item-body-sentense "></div>
-                      <p class="item-title">Pixcel Dust</p>
-                      <p class="item-text">Paul neave</p>
+                      <div class="item-body-text l-colum">
+                        <p class="item-title">Pixcel Dust</p>
+                        <p class="item-text">Paul neave</p>
+                      </div>
                   </div>
                   <div class="item-footer l-flex">
                     <div class="item-card-info">
-                      <p></p>
+                      <i class="fas fa-heart"></i>
                       <span class="item-card-number">76</span>
                     </div>
                     <div class="item-card-info">
-                      <p></p>
+                      <i class="fas fa-comment"></i>
                       <span class="item-card-number">1</span>
                     </div>
                     <div class="item-card-info">
-                      <p></p>
+                      <i class="far fa-eye"></i>
                       <span class="item-card-number">1,585</span>
                     </div>
                   </div>
@@ -255,21 +243,52 @@
                     <div class="item-icon">
                       <img src="img/紙飛行機.png" alt="紙飛行機">
                     </div>
-                    <div class="item-body-sentense"></div>
-                      <p class="item-title">Pixcel Dust</p>
-                      <p class="item-text">Paul neave</p>
+                      <div class="item-body-text l-colum">
+                        <p class="item-title">Pixcel Dust</p>
+                        <p class="item-text">Paul neave</p>
+                      </div>
                   </div>
                   <div class="item-footer l-flex">
                     <div class="item-card-info">
-                      <p></p>
+                      <i class="fas fa-heart"></i>
                       <span class="item-card-number">76</span>
                     </div>
                     <div class="item-card-info">
-                      <p></p>
+                      <i class="fas fa-comment"></i>
                       <span class="item-card-number">1</span>
                     </div>
                     <div class="item-card-info">
-                      <p></p>
+                      <i class="far fa-eye"></i>
+                      <span class="item-card-number">1,585</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="product-item">
+                <div class="item-card">
+                  <div class="item-card-img">
+                    <img src="img/犬.jpg" alt="犬">
+                  </div>
+                  <div class="item-body l-flex">
+                    <div class="item-icon">
+                      <img src="img/紙飛行機.png" alt="紙飛行機">
+                    </div>
+                      <div class="item-body-text l-colum">
+                        <p class="item-title">Pixcel Dust</p>
+                        <p class="item-text">Paul neave</p>
+                      </div>
+                  </div>
+                  <div class="item-footer l-flex">
+                    <div class="item-card-info">
+                      <i class="fas fa-heart"></i>
+                      <span class="item-card-number">76</span>
+                    </div>
+                    <div class="item-card-info">
+                      <i class="fas fa-comment"></i>
+                      <span class="item-card-number">1</span>
+                    </div>
+                    <div class="item-card-info">
+                      <i class="far fa-eye"></i>
                       <span class="item-card-number">1,585</span>
                     </div>
                   </div>
@@ -312,7 +331,7 @@
               </ul>
              </div>
              <div class="credit">
-               <p class="logo">CDEPEN</p>
+               <p class="footer-logo">C<span><i class="fas fa-cube"></i></span>DEPEN</p>
                <p><small>&copy; 2020CodePen</small></p>
                <p>Demo or it didn't happen.</p>
              </div>

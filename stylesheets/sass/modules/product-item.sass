@@ -6,7 +6,12 @@
     background: $item
     width: 350px
     border-radius: 4px
-    
+    transition: all 0.3s
+    &:hover
+        opacity: 0.4s
+        cursor: pointer;
+        transform: scale(1.05)
+
 .item-card-img
     padding: 8px
     margin: auto
@@ -22,6 +27,7 @@
     img
         width: 40px
         border-radius: 4px
+        margin-right: 8px
 
 .item-title
     color: white
