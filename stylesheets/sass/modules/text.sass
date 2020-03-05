@@ -1,4 +1,10 @@
 .sidebar
+    p
+        margin: 0
+    li
+        list-style: none
+    a
+        color: $sentense-color
     .side-title
         font-weight: bold
         font-size: 2.0em
@@ -20,20 +26,27 @@
     .title-secondry
         color: $accent
         font-size: 15px
-    li
-        list-style: none
-    a
-        color: $sentense-color
+    
     .sublist
-        padding-left: 16px
+        padding: 0
+        h2
+            padding-left: 16px
         a
+            padding-left: 16px
             color: white
+            display: block
             &:hover
+                background: black
                 cursor: pointer
+
+
     .sidebar-index
-        padding-left: 16px
+        padding: 0
         a
+            padding-left: 16px
+            display: block
             &:hover
+                background: black
                 cursor: pointer
 
 .search-form
@@ -45,6 +58,29 @@
         margin: 0
     .hero-title
         font-size: 3.0rem
+.code-part
+    p
+        margin: 0
+
+.code-card-header
+    p
+        margin: 0
+        margin-left: 8px
+    .fas
+        color: #b7bbc8
+.cursor
+    animation: blink 1s infinite
+
+.highlight-orange
+    color: $highlight-orange
+.highlight-being
+    color: $highlight-being
+.highlight-green
+    color: $highlight-green
+.highlight-purple
+    color: $highlight-purple
+.highlight-blue
+    color: $highlight-blue
 
 .features
     .feature-title
@@ -86,6 +122,12 @@
         color: white
     p, small
         color:  $sentense-color
+        margin: 0
+    .credit-text
+        margin: 15px 0
 
 .accent
     color: $accent
+
+.bs
+    margin-bottom: 2em;
